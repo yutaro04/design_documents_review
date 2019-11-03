@@ -8,3 +8,21 @@
 - レビューの記述は、基本的にGitHubのブラウザエディタを使用してください。
   - すでに使用しているMarkdownエディタがあれば、ローカルにcloneしても良いです
 - レビューが完了した時のコミットメッセージは"提出(n回目)"にしてください。
+
+## レビュー対象の設計書
+
+### 画面設計
+- UI Flow : https://drive.google.com/drive/u/0/folders/1eioKSb6Z7kaleiO4zJPXAYQJ30F9ACoN
+- ワイヤーフレーム : https://drive.google.com/file/d/1TuI8FwvMX5iwXWvxyNJ9ezOrdx1jqOBv/view?usp=sharing
+
+### データベース設計
+- ER図
+  - 01 : https://drive.google.com/open?id=1vmMD2q76GOOmyuhuzgkJsk9nRcNhoOhE
+  - 02 : https://drive.google.com/open?id=1iYVDuKeXzSM7Cq7bpXXR_SNu_qqxmdx0
+- テーブル定義書
+  - 01 : https://drive.google.com/open?id=1wZb6VJ-R-l7HDswsxH76Y3_ZXx07vZUyJ4wwFFI2Svk
+  - 02 : https://drive.google.com/open?id=1jx9q22FS50O2qUz0miKJvt-gflGKFfcrrZ9Ubu_z9_g
+  
+### アプリケーション詳細設計
+- 設計書 : https://drive.google.com/open?id=1EWayigGHKoqL_wm6fKodic7vaE5BXuxsSa5LM8GOUQc
+- 参考ワイヤーフレーム : https://drive.google.com/open?id=1Zurk2OCDyitQuVNZcFHkeaxf-RXEdYrf
