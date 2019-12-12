@@ -39,9 +39,6 @@
 
 
 ## レビュー対象の設計書
-### 画面設計
-- ワイヤーフレーム : https://drive.google.com/file/d/1TuI8FwvMX5iwXWvxyNJ9ezOrdx1jqOBv/view?usp=sharing
-
 ### データベース設計
 - ER図
   - 01 : https://drive.google.com/open?id=1vmMD2q76GOOmyuhuzgkJsk9nRcNhoOhE
