@@ -199,3 +199,6 @@
 
 ## artists,genres,labels
 - それぞれの名称カラムは「name」の方がより良いです。「Artists/artist」よりも「Artist/name」のほうが何を意味しているのかわかりやすいため。
+
+## フィードバック
+- 合格です！！
