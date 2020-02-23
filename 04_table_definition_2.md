@@ -67,15 +67,4 @@
 
 <font color="Red">再提出の際はこのレビューを残しておいてください。</font>
 
-## users
-- member_statusというカラム名だけでどのようなステータスを管理するかわかりますか
-
-## discs,cart items
-- products_idのカラム名は適切ですか
-
-## cart items
-- 不適切なカラム名は他にもありませんか
-
-## sell_details
-- sellsとの関係性を表すカラムは存在しますか。
-- totalというカラム名だけみてなにをいれるものなのかわかりますか
+合格となります
