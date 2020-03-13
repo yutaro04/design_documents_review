@@ -35,7 +35,7 @@
 ## genre
 -product_idは不要です。
 -genreカラムはgenre_nameなどと一目でカラムの意味がわかるようなカラム名に変更しましょう。
--
+
 
 ## cart item
 -products_idではなくproduct_idにしましょう。
