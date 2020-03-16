@@ -24,7 +24,7 @@
 - stockは入荷と売上から算出できるので不要です。
 
 ## discs
--products_idに注目してください。指摘して欲しい点がございます。
+- products_id → product_id に変更してください。
 
 ## songs
 - songというカラム名から役割を判断できません。
