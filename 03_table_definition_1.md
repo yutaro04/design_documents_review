@@ -41,6 +41,9 @@ member_statusのカラムの名称は適切
 - product_idは必要ない。
 - それぞれの名前を保存するカラムの命名が良くない。
 
+## 共通 Aritistテーブル Genreテーブル
+- データ型とカラムの働きが一致してないカラムがあります。
+
 ## Cart itemテーブル
 - 要件上、トラックナンバーは保存する必要はない
 - products_id → product_id に変更
