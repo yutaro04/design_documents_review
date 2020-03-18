@@ -12,17 +12,24 @@
 ## users
 - カラム名に略ごを使うのはやめましょう。
 - 郵便番号・電話番号のデータ型はintegerではなくstringにしましょう。
+- 配送先住所を複数登録できることを考慮しましょう。
+- member_statusが何を意味しているか不明、データ型がstring。
 
 ## products
-- disc_id・artist_id・genre_id・label_idにFKを持たせましょう。
+- artist_id・genre_id・label_idにFKを持たせましょう。
+- disc_idを持つ必要はありません。
+- cd_titleはtitleで大丈夫です
+- 在庫数カラムは必要ありません。（入荷と売り上げから算出できます。）
 
 ## discs
 - products_idではなくproduct_idにしましょう。
 - discが複数あることを考慮しましょう。
+- track_numはどういった用途ですか？
 
 ## songs
 - 曲名カラムのデータ型はintegerではなくstringにしましょう。
 - 曲順カラムを持たせましょう。
+- 曲名カラムの名前はsongとするのではなくnameなどしましょう。
 
 ## labels
 - product_idは不要です。
@@ -31,10 +38,12 @@
 ## artists
 - product_idは不要です。
 - artistカラムはartist_nameなどと一目でカラムの意味がわかるようなカラム名に変更しましょう。
+- アーティスト名カラムのデータ型がintegerとなっています。
 
 ## genre
 - product_idは不要です。
 - genreカラムはgenre_nameなどと一目でカラムの意味がわかるようなカラム名に変更しましょう。
+- ジャンル名カラムのデータ型がintegerとなっています。
 
 
 ## cart item
@@ -43,13 +52,16 @@
 - 小計金額カラムは必要ありません。
 
 ## buy　details
+-buy detailsだと受注詳細の意味になりません。
 - buy numカラムはbuy_numカラムとアンダースコアをつけましょう。
 
 ## buy
+- buyだと受注の意味になりません。
 - buy_details_idは必要ありません。
 - payカラムだけだとそれがどんなカラムわからないので一目でカラムの意味がわかるようなカラム名にしましょう。
 - 支払い方法はenumを考慮しデータ型を変えましょう。
 - 郵便番号がありません。
+- 支払い合計のカラム名がstockなのは意味不明です。
 
 # 注意
 * マークダウン形式で記入してください。
