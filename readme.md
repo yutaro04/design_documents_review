@@ -1,3 +1,5 @@
+**この内容は2020/03改訂版です**
+
 # 設計レビュー最終課題README
 ## やること
 - 以下のレビュー対象の設計書について、レビューを行ってもらいます。
@@ -36,23 +38,22 @@
 ## レビュー対象の設計書
 ### データベース設計
 - ER図
-  - 01 : https://drive.google.com/open?id=1vmMD2q76GOOmyuhuzgkJsk9nRcNhoOhE
-  - 02 : https://drive.google.com/open?id=1iYVDuKeXzSM7Cq7bpXXR_SNu_qqxmdx0
+  - 01 : [リンク](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01_ER%E5%9B%B3_original#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LucKDJ8Q-IyTijo15Oa8QB3qpTFnzkJt%26export%3Ddownload)
+  - 02 : [リンク](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=02_ER%E5%9B%B3_original#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Kej_yGSBMVbzozraNAoutF95MYchVi5D%26export%3Ddownload)
 - テーブル定義書
-  - 01 : https://drive.google.com/open?id=1wZb6VJ-R-l7HDswsxH76Y3_ZXx07vZUyJ4wwFFI2Svk
-  - 02 : https://drive.google.com/open?id=1jx9q22FS50O2qUz0miKJvt-gflGKFfcrrZ9Ubu_z9_g
+  - 01 : [リンク](https://docs.google.com/spreadsheets/d/1DepNODFa3pguiQiRd9XWs87JT77yJDvLGV1u0_xbwqs/edit?usp=sharing)
+  - 02 : [リンク](https://docs.google.com/spreadsheets/d/1CvwjRLEYASTM987y8KZXTR34p5e0d3NUwOblYj6G_Gc/edit?usp=sharing)
   
 ### アプリケーション詳細設計
-- 設計書 : https://drive.google.com/open?id=1EWayigGHKoqL_wm6fKodic7vaE5BXuxsSa5LM8GOUQc
-- 参考ワイヤーフレーム : https://drive.google.com/open?id=1Zurk2OCDyitQuVNZcFHkeaxf-RXEdYrf
+- 設計書 : [リンク](https://docs.google.com/spreadsheets/d/1Cjml9dOAoxFqWhRMcyJQgRrpEzMlYDuIK6iu31tiTbA/edit?usp=sharing)
+- 画面は、下記ワイヤーフレームを参照してください。
+  - [WF_Admin](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=WF_Admin#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1O13FsfKsEv3Uz6N7iZSGbmiA6XdSd8ez%26export%3Ddownload)
+  - [WF_Customer](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=WF_Customer#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PzZI4RsvRVwpfq9Pg7kQi2x1oxJiJogD%26export%3Ddownload)
 
 # 設計書必須要件
 以下は、必須要件になります。少なくとも以下の要件が満たされていることを確認しましょう。
 
-## アプリケーション概要
-このアプリケーションは、CDのECサイトです。
-
-## データ要件
+## データベース設計要件
 ### 管理者
 - メールアドレスとパスワードだけもつ
 
@@ -97,28 +98,3 @@
 	- 送料
 	- 配送ステータス
 	- 購入方法(銀行振込、代引き、クレジットカード)
-
-## 画面必須要件
-### エンドユーザ
-- 登録
-- ログイン
-- 商品一覧
-- 商品詳細
-- カート一覧
-- 購入情報入力画面(配送先、購入方法)
-- 購入確認画面
-- 購入完了画面
-- マイページ(ユーザ情報、購入履歴)
-
-### 管理者
-- ログイン
-- 商品一覧
-- 商品詳細
-- 商品登録
-- 商品編集
-- 商品入荷
-- 受注一覧
-- 受注詳細
-- ユーザ一覧
-- ユーザ詳細
-- ユーザ編集
