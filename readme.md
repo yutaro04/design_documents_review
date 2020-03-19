@@ -36,11 +36,11 @@
 ## レビュー対象の設計書
 ### データベース設計
 - ER図
-  - 01 : https://drive.google.com/open?id=1vmMD2q76GOOmyuhuzgkJsk9nRcNhoOhE
-  - 02 : https://drive.google.com/open?id=1iYVDuKeXzSM7Cq7bpXXR_SNu_qqxmdx0
+  - 01 : [リンク](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01_ER%E5%9B%B3_original#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1LucKDJ8Q-IyTijo15Oa8QB3qpTFnzkJt%26export%3Ddownload)
+  - 02 : [リンク](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=02_ER%E5%9B%B3_original#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1Kej_yGSBMVbzozraNAoutF95MYchVi5D%26export%3Ddownload)
 - テーブル定義書
-  - 01 : https://drive.google.com/open?id=1wZb6VJ-R-l7HDswsxH76Y3_ZXx07vZUyJ4wwFFI2Svk
-  - 02 : https://drive.google.com/open?id=1jx9q22FS50O2qUz0miKJvt-gflGKFfcrrZ9Ubu_z9_g
+  - 01 : [リンク](https://docs.google.com/spreadsheets/d/1DepNODFa3pguiQiRd9XWs87JT77yJDvLGV1u0_xbwqs/edit?usp=sharing)
+  - 02 : [リンク](https://docs.google.com/spreadsheets/d/1CvwjRLEYASTM987y8KZXTR34p5e0d3NUwOblYj6G_Gc/edit?usp=sharing)
   
 ### アプリケーション詳細設計
 - 設計書 : https://docs.google.com/spreadsheets/d/1Cjml9dOAoxFqWhRMcyJQgRrpEzMlYDuIK6iu31tiTbA/edit?usp=sharing
