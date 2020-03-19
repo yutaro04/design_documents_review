@@ -1,4 +1,5 @@
-<font style="color: red;">この内容は2020/03改訂版です</font>
+**この内容は2020/03改訂版です**
+
 # 設計レビュー最終課題README
 ## やること
 - 以下のレビュー対象の設計書について、レビューを行ってもらいます。
@@ -44,7 +45,7 @@
   - 02 : [リンク](https://docs.google.com/spreadsheets/d/1CvwjRLEYASTM987y8KZXTR34p5e0d3NUwOblYj6G_Gc/edit?usp=sharing)
   
 ### アプリケーション詳細設計
-- 設計書 : https://docs.google.com/spreadsheets/d/1Cjml9dOAoxFqWhRMcyJQgRrpEzMlYDuIK6iu31tiTbA/edit?usp=sharing
+- 設計書 : [リンク](https://docs.google.com/spreadsheets/d/1Cjml9dOAoxFqWhRMcyJQgRrpEzMlYDuIK6iu31tiTbA/edit?usp=sharing)
 - 画面は、下記ワイヤーフレームを参照してください。
   - [WF_Admin](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=WF_Admin#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1O13FsfKsEv3Uz6N7iZSGbmiA6XdSd8ez%26export%3Ddownload)
   - [WF_Customer](https://app.diagrams.net?lightbox=1&highlight=0000ff&layers=1&nav=1&title=WF_Customer#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1PzZI4RsvRVwpfq9Pg7kQi2x1oxJiJogD%26export%3Ddownload)
