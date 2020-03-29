@@ -9,7 +9,6 @@
 ## users
 - user_l_nameなどと省略しないほうが良い
 - user_l_nameの備考に”名前”は不適当
-- zip_codeだと機能がわかりにくい
 - member_statusだと機能がわかりにくい
 - member_statusのデータ型がintegerとなっているにも関わらず、DEFAULTがFALSEはおかしい
 - member_statusのデータ型にenumは違和感がある。備考に書きたい
@@ -30,6 +29,7 @@
 
 ## songs
 - カラム名songだとわかりにくい。
+- created_at, updated_atカラムの説明が”曲名〜”となっているのは不適切
 
 ## labels
 - カラム名がlabelだとわかりにくい。
@@ -48,6 +48,7 @@
 ## order_details
 - products_idと複数形になっているのは不適当
 - product_idはFKに指定する
+- created_at, updated_atカラムの説明が"販売登録日時"などとなっているのは不適切
 
 ## orders
 - カラム名としてpayだとわかりにくい
