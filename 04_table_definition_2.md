@@ -14,6 +14,7 @@
 - member_statusのデータ型にenumは違和感がある。備考に書きたい
 
 ## ships
+- テーブル名がshipsだとわかりにくい
 - ship_nameだと機能がわかりにくい。
 
 ## products
