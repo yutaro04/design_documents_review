@@ -22,7 +22,6 @@
 - image_idにNOT NULL属性は不要
 - image_idのDEFAULTとして"画像準備中"は不適切
 - cd_titleだと機能が不明瞭
-- ディスクの枚数を表すカラムが必要
 - disc_numなどと省略形を使わないほうがいい
 
 ## discs
